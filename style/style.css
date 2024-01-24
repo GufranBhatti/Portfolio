@@ -32,6 +32,19 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #000000; /* Set the desired text color for headings */
+  }
+
+  /* Set text color for bullet points */
+  li {
+    color: #000000;
+  }
+
+  p {
+    color: #000000; /* Set the desired text color */
+  }
+
   /* Hide Streamlit branding */
   #MainMenu {visibility: hidden;}
   footer {visibility: hidden;}

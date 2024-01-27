@@ -503,13 +503,13 @@ elif choose == "Resume":
 
     st.markdown(pdf_link(resume_url, "**Resume**"), unsafe_allow_html=True)
     show_pdf("Gufran_Resume_CS.pdf")
-    with open("Gufran_Resume_CS.pdf", "rb") as file:
-        btn = st.download_button(
-            label="Download Resume",
-            data=file,
-            file_name="Gufran_Resume_CS.pdf",
-            mime="application/pdf"
-        )
+    # with open("Gufran_Resume_CS.pdf", "rb") as file:
+    #     btn = st.download_button(
+    #         label="Download Resume",
+    #         data=file,
+    #         file_name="Gufran_Resume_CS.pdf",
+    #         mime="application/pdf"
+    #     )
 
 
 elif choose == "Contact":

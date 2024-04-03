@@ -244,7 +244,7 @@ if choose == "About Me":
             st.write("🏋🏻 In addition, I like to exercise in the gym, run, write, play football and video games and... enjoy eating good food in my free time!")
             st.write("👨🏼‍💻 Academic interests: Data Visualization, Data Analysis, Automation, Predictive AI models")
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, Data Engineer, Business Intelligence Analyst")
-            st.write("📄 [Resume](https://drive.google.com/file/d/1YbUMdikhwBasyTpUfiAij_kY_yjHxzKF/view?usp=sharing)")
+            st.write("📄 [Resume](https://drive.google.com/file/d/1zRbnzky6e93oXSA7T8TYt04mde8gOazQ/view?usp=sharing)")
         with middle_column:
             st.empty()
         with right_column:
@@ -497,7 +497,7 @@ elif choose == "Certifications":
 
 
 elif choose == "Resume":   
-    resume_url = "https://drive.google.com/file/d/1YbUMdikhwBasyTpUfiAij_kY_yjHxzKF/view?usp=sharing"
+    resume_url = "https://drive.google.com/file/d/1zRbnzky6e93oXSA7T8TYt04mde8gOazQ/view?usp=sharing"
     st.header("Resume")
     st.write("*In case your current browser cannot display the PDF documents, do refer to the hyperlink below!*")
 

@@ -263,10 +263,12 @@ elif choose == "Experience":
             st.write("*September 2023 to Present*")
             st.markdown("""
             - Automate tasks like downloading and processing spatial data using python to speed up the productivity.
+            - Write python scripts to solve problems related to spatial data analytics.
             - Use prebuilt object detection models and tune them to detect plants in crop images.
+            - Learnt Django framework and built a basic website using postgresql as database.
             - Use GIS tools to like ArcGIS Pro, Google Earth Pro, etc. to analyze and process sentinel-2 data.
             
-            `Automation` `Object Detection` `Spatial Data Analysis`
+            `Automation` `Object Detection` `Spatial Data Analysis` `Django`
             """)
     with st.container():
         image_column, text_column = st.columns((1,5))

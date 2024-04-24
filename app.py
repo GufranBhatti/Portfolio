@@ -244,7 +244,7 @@ if choose == "About Me":
             st.write("🏋🏻 In addition, I like to exercise in the gym, run, write, play football and video games and... enjoy eating good food in my free time!")
             st.write("👨🏼‍💻 Academic interests: Data Visualization, Data Analysis, Automation, Predictive AI models")
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, Data Engineer, Business Intelligence Analyst")
-            st.write("📄 [Resume](https://drive.google.com/file/d/1zRbnzky6e93oXSA7T8TYt04mde8gOazQ/view?usp=sharing)")
+            st.write("📄 [Resume](https://drive.google.com/file/d/12rribU_sAweVly_C_UgvAOvKsr3_Snui/view?usp=sharing)")
         with middle_column:
             st.empty()
         with right_column:
@@ -450,6 +450,16 @@ elif choose == "Certifications":
     with st.container():
         image_column, text_column = st.columns((1,3))
         with image_column:
+            st.image(img_cou)
+            #st.empty()
+        with text_column:
+            st.subheader("[Extract, Transform and Load Data in Power BI](https://www.coursera.org/learn/extract-transform-and-load-data-in-power-bi) - Hosted by [Coursera](https://www.coursera.org/)")
+            st.write("Extract, Transform and Load Data in Power BI program offers valuable skills in setting up data sources and configuring storage modes to effectively manage data within Power BI. Throughout the course, learners will delve into the cleaning and transformation of data for improved accuracy and usability in analysis. Also learners will utilize profiling tools, becoming adept at identifying data anomalies, ensuring data quality at every step. Moreover, learners will hone their ability to reference queries and dataflows, harnessing the power of the Advanced Editor to customize data transformations to meet specific business needs.")
+            mention(label="Verification", icon="📄", url="https://www.coursera.org/account/accomplishments/verify/733M5WBFBYZ3",)
+            
+    with st.container():
+        image_column, text_column = st.columns((1,3))
+        with image_column:
             st.image(img_uda)
             #st.empty()
         with text_column:
@@ -499,7 +509,7 @@ elif choose == "Certifications":
 
 
 elif choose == "Resume":   
-    resume_url = "https://drive.google.com/file/d/1zRbnzky6e93oXSA7T8TYt04mde8gOazQ/view?usp=sharing"
+    resume_url = "https://drive.google.com/file/d/12rribU_sAweVly_C_UgvAOvKsr3_Snui/view?usp=sharing"
     st.header("Resume")
     st.write("*In case your current browser cannot display the PDF documents, do refer to the hyperlink below!*")
 

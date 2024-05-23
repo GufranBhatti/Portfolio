@@ -244,7 +244,7 @@ if choose == "About Me":
             st.write("🏋🏻 In addition, I like to exercise in the gym, run, write, play football and video games and... enjoy eating good food in my free time!")
             st.write("👨🏼‍💻 Academic interests: Data Visualization, Data Analysis, Automation, Predictive AI models")
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, Data Engineer, Business Intelligence Analyst")
-            st.write("📄 [Resume](https://drive.google.com/file/d/1ePeUSThJPMkf0ti1NoYw2vpQZjyPz6Ng/view?usp=sharing)")
+            st.write("📄 [Resume](https://drive.google.com/file/d/1Rx185lcqfELatnswYTbF0Xdg2-jBrKDL/view?usp=sharing)")
         with middle_column:
             st.empty()
         with right_column:
@@ -453,6 +453,16 @@ elif choose == "Certifications":
             st.image(img_cou)
             #st.empty()
         with text_column:
+            st.subheader("[Data Analysis and Visualization with Power BI](https://www.coursera.org/learn/data-analysis-and-visualization-with-power-bi) - Hosted by [Coursera](https://www.coursera.org/)")
+            st.write("Data Analysis and Visualization with Power BI program offers a comprehensive understanding of key skills essential for effective data analysis and visualization in Power BI. They will learn how to add various visualizations to reports and dashboards, enhancing the presentation of data insights. Additionally, learners will master the art of designing accessible reports and dashboards, ensuring inclusivity and usability for all users.")
+            mention(label="Verification", icon="📄", url="https://www.coursera.org/account/accomplishments/verify/94CPNJJWSEWE",)
+    
+    with st.container():
+        image_column, text_column = st.columns((1,3))
+        with image_column:
+            st.image(img_cou)
+            #st.empty()
+        with text_column:
             st.subheader("[Data Modeling in Power BI](https://www.coursera.org/learn/data-modeling-in-power-bi) - Hosted by [Coursera](https://www.coursera.org/)")
             st.write("Data Modeling in Power BI program offers a comprehensive understanding of data modeling, DAX expressions, and performance optimization in Power BI. Throughout the course, learners will learn how to create and maintain relationships in a data model, including forming models using multiple schemas like the Star Schema. Additionally, learners will master the basics of DAX and how to write calculations to create elements and conduct analysis in Power BI. They will be able to create calculated columns and measures, perform time intelligence calculations, and optimize performance using tools such as the performance analyzer and DirectQuery features.")
             mention(label="Verification", icon="📄", url="https://www.coursera.org/account/accomplishments/certificate/9YTRBXV7BBQF",)
@@ -519,7 +529,7 @@ elif choose == "Certifications":
 
 
 elif choose == "Resume":   
-    resume_url = "https://drive.google.com/file/d/1ePeUSThJPMkf0ti1NoYw2vpQZjyPz6Ng/view?usp=sharing"
+    resume_url = "https://drive.google.com/file/d/1Rx185lcqfELatnswYTbF0Xdg2-jBrKDL/view?usp=sharing"
     st.header("Resume")
     st.write("*In case your current browser cannot display the PDF documents, do refer to the hyperlink below!*")
 

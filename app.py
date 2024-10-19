@@ -259,13 +259,20 @@ elif choose == "Experience":
             st.subheader("Python Developer, [PrecisionBird](https://www.linkedin.com/company/precision-bird/about/)")
             st.write("*September 2023 to Present*")
             st.markdown("""
-            - Automate tasks like downloading and processing spatial data using python to speed up the productivity.
-            - Write python scripts to solve problems related to spatial data analytics.
-            - Use prebuilt object detection models and tune them to detect plants in crop images.
-            - Learnt Django framework and built a basic website using postgresql as database.
-            - Use GIS tools to like ArcGIS Pro, Google Earth Pro, etc. to analyze and process sentinel-2 data.
+            Experienced in automating spatial data workflows, performing geospatial analytics, and utilizing object detection and segmentation models. Skilled in Python scripting, Machine and Deep Learning, GIS tools and frameworks, with expertise in data analytics, data processing, and field delineation.
             
-            `Automation` `Object Detection` `Spatial Data Analysis` `Django`
+            - Automated spatial data download and processing using Python/R to enhance productivity.
+            - Acquire satellite imagery according to AOI (Area Of Interest).
+            - Developed Python scripts to solve geospatial analytics challenges.
+            - Fine-tuned object detection and segmentation models to identify crops in Sentinel-2 imagery.
+            - Applied SAM (Segment Anything Model) for precise field delineation, improving result accuracy.
+            - Implemented IoU (Intersection over Union) to reduce manual effort and increase accuracy.
+            - Annotated and digitized data on Sentinel-2, high-resolution imagery, and orthomosaics with ArcGIS Pro.
+            - Analyzed and processed drone and Sentinel-2 imagery using tools like ArcGIS Pro and Google Earth Pro.
+            - Created orthomosaics from drone imagery with SNAP.
+            - Cleaned and visualized data using PowerQuery and PowerBI.
+            
+            `Automation` `Python` `Object Detection` `Spatial Data Analysis` `Digitization` `Machine and Deep Learning` `Office` `PowerBI` 
             """)
     with st.container():
         image_column, text_column = st.columns((1,5))

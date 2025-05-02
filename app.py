@@ -237,11 +237,11 @@ if choose == "About Me":
             st.header("About Me")
             st.subheader("Python Developer/Aspiring Data Analyst")
             st.write("👋🏻 Hi, I'm Gufran! I'm a computer science graduate based in Pakistan. With previous hands-on involvement in data science and Python development roles, I am actively exploring distinctive opportunities to further enhance my skill set. Eager to broaden my expertise, I am currently in search of unique job experiences that align with my passion and ambitions, as I continue to progress in my career journey.")
-            st.write("💼 With the post-COVID era unfolding, I see the potential for applying data science across diverse industries. In response to the rising demand for data analytics in various sectors, I am eager to explore opportunities for my initial full-time position, aiming to contribute my skills and insights to different industry landscapes.")
+            st.write("💼 With the post-COVID era unfolding, I see the potential for applying data science across diverse industries. In response to the rising demand for data analytics in various sectors, I am eager to explore opportunities for full-time position, aiming to contribute my skills and insights to different industry landscapes.")
             st.write("🏋🏻 In addition, I like to exercise in the gym, run, write, play football and video games and... enjoy eating good food in my free time!")
             st.write("👨🏼‍💻 Academic interests: Data Visualization, Data Analysis, Automation, Predictive AI models")
-            st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, Data Engineer, Business Intelligence Analyst")
-            st.write("📄 [Resume](https://drive.google.com/file/d/1Dbr3-ScR4fq1r1ovCZFtsNB-d_8nbRmi/view?usp=sharing)")
+            st.write("💭 Ideal Career Prospects: AI Engineer, Cloud Computing, Data Analyst, Data Scientist, Data Engineer, Business Intelligence Analyst")
+            st.write("📄 [Resume](https://drive.google.com/file/d/1-CMdyovIhjV_YQWOpyip_5tPAgTeUCWq/view?usp=sharing)")
         with middle_column:
             st.empty()
         with right_column:
@@ -533,7 +533,7 @@ elif choose == "Certifications":
 
 
 elif choose == "Resume":   
-    resume_url = "https://drive.google.com/file/d/1Dbr3-ScR4fq1r1ovCZFtsNB-d_8nbRmi/view?usp=sharing"
+    resume_url = "https://drive.google.com/file/d/1-CMdyovIhjV_YQWOpyip_5tPAgTeUCWq/view?usp=sharing"
     st.header("Resume")
     st.write("*In case your current browser cannot display the PDF documents, do refer to the hyperlink below!*")
 

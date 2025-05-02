@@ -235,7 +235,7 @@ if choose == "About Me":
         left_column, middle_column, right_column = st.columns((1,0.2,0.5))
         with left_column:
             st.header("About Me")
-            st.subheader("Python Developer (AI/Data Analytics")
+            st.subheader("Python Developer (AI/Data Analytics)")
             st.write("👋🏻 Hi, I'm Gufran! I'm a computer science graduate based in Pakistan. With previous hands-on involvement in data science and Python development roles, I am actively exploring distinctive opportunities to further enhance my skill set. Eager to broaden my expertise, I am currently in search of unique job experiences that align with my passion and ambitions, as I continue to progress in my career journey.")
             st.write("💼 With the post-COVID era unfolding, I see the potential for applying data science across diverse industries. In response to the rising demand for data analytics in various sectors, I am eager to explore opportunities for full-time position, aiming to contribute my skills and insights to different industry landscapes.")
             st.write("🏋🏻 In addition, I like to exercise in the gym, run, write, play football and video games and... enjoy eating good food in my free time!")
